@@ -1,0 +1,22 @@
+body {
+}
+label {
+ display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: left;
+    font-size: larger;
+}
+
+input {
+ display: inline-block;
+  text-align: right ;
+}
+
+td {
+    border-width: medium;
+    border-color: #808080;
+    border-style: groove ;
+    
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Web Toxicology</title>
+  
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+<body>
+    <table style="width: 60%">
+        <tr>
+    <td valign="top" style="width: 50%">
+    <form id="form1">
+    <div>
+        <label>Case Number</label><input type="text" value="" name="entry" /> <br />
+        <label>Age</label><input type="text" value="" name="entry" /> <br />
+        <label>Gender</label><input type="text" value="" name="entry" /> <br />
+        <label>Race</label><input type="text" value="" name="entry" /> <br />
+        <label>Height</label><input type="text" value="" name="entry" /> <br />
+        <label>Weight</label><input type="text" value="" name="entry" /> <br />
+    </div>
+    </form>
+      </td>
+      <td valign="top" style ="width: 50%">
+      <form>
+             <div>  
+                <label>Violence involved:</label>   
+                 <select>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>   
+                    </select><br />
+                <label>Chronic user:</label>  
+                 <select>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>   
+                    </select>  <br />
+                <label>Pertinent medical history:</label> <input type="text" id="PMH">  <br />
+                <label>Summary:</label> <input type="text" id="Summary"> <br />
+              </div>       
+      </form>
+            </td>
+        </tr>
+        <tr>
+            <td td ="100%">
+                <label>Cocaine</label><input type="number" name="drugs"> <br>
+                <label>THC</label><input type="number" name="drugs"> <br>
+                <label>Opiate</label><input type="number" name="drugs"> <br>
+                <label>PCP</label><input type="number" name="drugs"> <br>
+                <label>Amphetamine</label><input type="number" name="drugs"> <br>
+                <label>Other</label><input type="number" name="drugs"> <br>
+        </td>
+        </tr>
+    </table>
+</body>
+</html>
+
